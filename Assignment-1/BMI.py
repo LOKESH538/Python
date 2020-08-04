@@ -1,4 +1,5 @@
-#write a program that prompts the user to enter a weight in pounds and height in inches and displays the BMI.
+""" write a program that prompts the user to enter a weight in pounds and height in inches and displays the BMI. """
+
 weight=float(input("Weight (in pounds) :"))
 height=float(input("Height (in inches) :"))
 w=weight*0.45359237
@@ -13,6 +14,3 @@ if BMI >=25.0 and BMI <30.0:
     print("Over Weight")
 if BMI >=30.0:
     print("Obese")
-
-
-
