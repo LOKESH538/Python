@@ -1,4 +1,5 @@
-#Print all palindrome numbers between 1 to 1000.
+""" Print all palindrome numbers between 1 to 1000. """
+
 l=list()
 m=list()
 count=0
@@ -17,4 +18,3 @@ for i in range(1,1001):
         print(sum)
     l.clear()
     m.clear()
-
