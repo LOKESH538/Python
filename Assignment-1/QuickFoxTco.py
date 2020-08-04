@@ -1,5 +1,6 @@
 """A Quick Fox Transport Co. wants to develop an application for calculating amount based on distance and weight of goods.
  The charges (Amount) to be calculated as per rates given below."""
+
 d=int(input("Enter distance to be travelled (in Km) :"))
 w=int(input("Enter weight of the goods (in Kg) : "))
 if d >= 500:
