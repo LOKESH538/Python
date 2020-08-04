@@ -1,4 +1,5 @@
-#Develop a code to calculate no.of steps that spider climbs to come out from well.
+"""  Develop a code to calculate no.of steps that spider climbs to come out from well. """
+
 H=int(input("Enter height:"))
 U=int(input("Enter meters climbs up :"))
 D=int(input("Enter meters slips down :"))
@@ -11,9 +12,3 @@ while H>U:
             step += 1
 
 print(step)
-
-
-
-
-
-
